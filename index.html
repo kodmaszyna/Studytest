@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>I Miss My Cafe</title>
+  <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+  <script src="https://cdn.jsdelivr.net/npm/lucide@latest"></script>
+  <style>
+    body {
+      background: no-repeat center center fixed;
+      background-size: cover;
+    }
+  </style>
+</head>
+<body class="flex flex-col items-center justify-center min-h-screen text-white bg-black bg-opacity-50 backdrop-blur-md">
+
+  <h1 class="text-4xl font-bold mb-4">I Miss My Cafe</h1>
+
+  <!-- Theme toggle -->
+  <div class="mb-6 flex items-center gap-2">
+    <button id="themeToggle" class="bg-blue-600 hover:bg-blue-700 text-white py-2 px-4 rounded flex items-center gap-2">
+      <i data-lucide="moon"></i>
+      <span>Switch to Night Theme</span>
+    </button>
+  </div>
+
+  <!-- Sound controls -->
+  <div id="controls" class="grid grid-cols-1 sm:grid-cols-2 gap-6 w-full max-w-md"></div>
+
+  <script src="https://unpkg.com/lucide@latest"></script>
+  <script>lucide.createIcons();</script>
+  <script src="main.js"></script>
+</body>
+</html>
