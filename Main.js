@@ -4,8 +4,9 @@ const themes = {
     background: 'IMG_2342.png',
     icon: 'moon',
     sounds: [
-      { name: 'Chatter', file: 'sounds/day/chatter.mp3' },
-      { name: 'Jazz Music', file: 'sounds/day/jazz.mp3' }
+      { name: 'Lo-Fi Music', file: 'coffee-drip-vibe-chill-lo-fi-cafe-music-336406.mp3' },
+      { name: 'Coffee Pouring', file: 'coffee-pouring-243569.mp3' }
+      { name: 'Drip Coffee', file: 'drip-coffee-33785.mp3' }
     ]
   },
   night: {
@@ -13,8 +14,8 @@ const themes = {
     background: 'IMG_2343.png',
     icon: 'sun',
     sounds: [
-      { name: 'Rain', file: 'sounds/night/rain.mp3' },
-      { name: 'Lo-fi Music', file: 'sounds/night/lofi.mp3' }
+      { name: 'Rain', file: 'gentle-rain-for-relaxation-and-sleep-337279.mp3' },
+      { name: 'Lo-fi Music', file: 'rainy-sax-nights-325858.mp3' }
     ]
   }
 };
