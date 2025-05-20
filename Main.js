@@ -1,7 +1,7 @@
 const themes = {
   day: {
     name: 'Day',
-    background: 'cafe-day.jpg',
+    background: 'IMG_2342.png',
     icon: 'moon',
     sounds: [
       { name: 'Chatter', file: 'sounds/day/chatter.mp3' },
@@ -10,7 +10,7 @@ const themes = {
   },
   night: {
     name: 'Night',
-    background: 'cafe-night.jpg',
+    background: 'IMG_2343.png',
     icon: 'sun',
     sounds: [
       { name: 'Rain', file: 'sounds/night/rain.mp3' },
